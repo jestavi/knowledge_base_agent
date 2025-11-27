@@ -2,19 +2,36 @@
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+# Knowledge Base Agent
 
-This contains everything you need to run your app locally.
+This repository contains everything you need to run your **Knowledge Base Agent** locally.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1BpqO4lft2NwgkZbid-Cc8sxHBkgkV0oK
+---
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
+**Prerequisites:** Node.js (v18+) installed on your machine.
 
+### 1. Clone the Repository
+```bash
+git clone https://github.com/jestavi/knowledge_base_agent.git
+cd knowledge_base_agent
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+2. Install Dependencies
+bash
+Copy code
+npm install
+
+3. Set Environment Variables
+Create a .env.local file in the root folder and add your API keys:
+
+env
+Copy code
+GEMINI_API_KEY=your_gemini_api_key_here
+OPENAI_API_KEY=your_openai_api_key_here
+Replace the keys with your actual API keys.
+
+4. Run the App
+bash
+Copy code
+npm run dev
