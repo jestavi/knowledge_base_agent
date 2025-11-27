@@ -1,0 +1,5 @@
+{
+  "name": "InsightDoc AI",
+  "description": "An intelligent knowledge base assistant that uses Gemini's large context window to answer questions, summarize, and visualize data from your uploaded company documents.",
+  "requestFramePermissions": []
+}
